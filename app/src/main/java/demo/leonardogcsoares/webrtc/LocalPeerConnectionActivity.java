@@ -81,7 +81,7 @@ public class LocalPeerConnectionActivity extends AppCompatActivity {
                 json.put("sdpMLineIndex", iceCandidate.sdpMLineIndex);
                 json.put("sdpMid", iceCandidate.sdpMid);
                 json.put("candidate", iceCandidate.sdp);
-
+                //
                 mes = json.toString();
 
                 Log.d (TAG, "local iceCandidateJson" + mes);
